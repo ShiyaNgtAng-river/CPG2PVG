@@ -1,0 +1,11 @@
+python-dotenv>=1.0
+fastapi>=0.104
+uvicorn>=0.24
+streamlit>=1.29
+langchain>=0.3
+langchain-openai>=0.2
+langgraph>=0.2
+pydantic>=2.5
+tenacity>=8.2
+httpx>=0.25
+sse-starlette>=1.8
