@@ -356,4 +356,3 @@ These are inconsistencies found while reading the source, not speculation:
 8. **`tasks` in `generator.py` is annotated as a 5-tuple but 6-tuples are appended.** Harmless at runtime, misleading to read.
 
 9. **`_implied_header` is too permissive.** The `\W` in `^([A-Z\s\d\W]{5,80})$` matches every non-word character, so punctuation-only lines, digit-only lines, and horizontal rules all classify as headings.
-```
